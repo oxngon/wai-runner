@@ -1,7 +1,7 @@
 # wai runner
-automation script to avoid sdxl model while running wai nodes;
+automation script to avoid 'sdxl' model while running wai nodes;
 
-runs the `wai` command with model detection so that your node starts with any other model but sdxl.
+runs the `wai` command with model detection so that your node starts with any other model but 'sdxl'.
 
 *NOTE: this is community made script, provided as-is; it will be deleted as soon as wai team provides a fix*
 
@@ -16,7 +16,7 @@ runs the `wai` command with model detection so that your node starts with any ot
 - creates and runs a python script that:
   - starts the wai run command
   - monitors output for model loading information
-  - restarts if the "sdxl" model is detected
+  - restarts if the 'sdxl' model is detected
   - continues normally for other models
 
 ## quick start
@@ -27,7 +27,7 @@ run this command to automatically download and execute the script:
 curl -sSL https://raw.githubusercontent.com/Oxngon/wai-runner/main/install.sh | bash
 ```
 
-for sdxl *and* llama-1b avoidance:
+for 'sdxl' *and* 'llama-1b' avoidance:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Oxngon/wai-runner/main/install2.sh | bash
