@@ -25,4 +25,12 @@ run this command to automatically download and execute the script:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Oxngon/wai-runner/main/install.sh | bash
+```
 
+## for sdxl *and* llama-1b avoidance:
+
+run this command to automatically download and execute the script:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/Oxngon/wai-runner/main/install2.sh | bash
+```
