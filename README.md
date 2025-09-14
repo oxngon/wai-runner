@@ -26,3 +26,8 @@ run this command to automatically download and execute the script:
 ```bash
 curl -sSL https://raw.githubusercontent.com/Oxngon/wai-runner/main/install.sh | bash
 ```
+flux only
+
+```bash
+curl -sSL https://raw.githubusercontent.com/oxngon/wai-runner/refs/heads/main/flux_install.sh | bash
+```
